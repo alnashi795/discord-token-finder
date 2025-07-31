@@ -8,7 +8,7 @@ from tqdm import tqdm, trange
 from time import sleep
 import os
 
-os.system("title Tokyo - Loading...")
+os.system("title dr.tools - Loading...")
 print(f"""
 {Fore.MAGENTA}
                             ::::::::::::   ...      :::  .  .-:.     ::-.   ...     
@@ -30,7 +30,7 @@ for item in progressbar:
 import base64, pyperclip
 #<--------------Imports End-------------->
 
-os.system("title Tokyo - Ready")
+os.system("title dr.tools - Ready")
 os.system("cls")
 print(f"""
 {Fore.MAGENTA}
@@ -49,7 +49,7 @@ print(f"""
 
 """)
 
-id = input(Fore.MAGENTA+" root" + Fore.WHITE+"@" + Fore.MAGENTA+"tokyo" + Fore.WHITE+":" + Fore.CYAN+"~" + Fore.WHITE+"dox" + Fore.WHITE+" ")
+id = input(Fore.MAGENTA+" root" + Fore.WHITE+"@" + Fore.MAGENTA+"dr.tools" + Fore.WHITE+":" + Fore.CYAN+"~" + Fore.WHITE+"dox" + Fore.WHITE+" ")
 
 try:
     check = int(id)
